@@ -1,11 +1,79 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Membership</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Membership</title>
+  <link href="../styles/style.css" rel="stylesheet">
+
 </head>
-<body>
-    
+
+<body class="d-flex flex-column min-vh-100">
+  <!-- banner -->
+  <div id="banner-container"></div>
+ 
+
+  <div class="container">
+    <h2>
+      Muscle Shoals Sailing Club is a non-profit corporation which owns the land, club house, docks and other
+      facilities its members utilize.
+    </h2>
+
+
+    <div class="container">
+      <h3>Full membership in the club is termed a Class A Membership which conveys a part ownership of the Club's assets
+        and voting privileges. To introduce the Club and sailing to juniors or students we have a membership which
+        provides full access to the club facilities but does not convey ownership or voting rights. Land storage of
+        boats, wet slips, and rack storage of Lasers is available for an additional fee.</h3>
+    </div>
+
+    <div class="container">
+      <ul>
+        <li>Initiation Fee for Class A Membership $300</li>
+        <li>Annual Dues for Class A Membership $600</li>
+        <li>Annual Dues for Class B Membership $200 (available for ages 23-29)</li>
+        <li>Annual Dues for Junior Membership $25</li>
+        <li>Slip Storage: $28 per foot per year</li>
+        <li>Land storage: $150 per year</li>
+        <li>Laser rack: $80 per year</li>
+        <li>Trailer storage: $60 per year</li>
+      </ul>
+    </div>
+
+    <div class="container">
+      <div class="card">
+        <h2>Contact Us</h2>
+        <form id="contactForm">
+          <input type="text" id="firstName" placeholder="First Name" required>
+          <input type="text" id="lastName" placeholder="Last Name" required>
+          <input type="email" id="email" placeholder="Email Address" required>
+          <textarea id="message" maxlength="1500" placeholder="Your Message (max 250 words)"></textarea>
+          <button type="submit">Submit</button>
+        </form>
+      </div>
+    </div>
+
+
+
+
+  </div>
+
+
+
+
+
+
+
+
+  <!-- footer div -->
+  <div id="footer-container"></div>
+
+  <!--const scritps area -->
+  <script src="../scripts/banner.js"></script>
+  <script src="../scripts/footer.js"></script>
+
+
 </body>
+
 </html>

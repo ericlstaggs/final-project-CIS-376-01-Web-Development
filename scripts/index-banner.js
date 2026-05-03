@@ -9,7 +9,7 @@ const  BANNER_HTML =
 
     <nav id="navbar" class="navbar navbar-expand-lg navbar-light bg-light pointer-events: none disabled">
         <div class="container-fluid">
-            <a class="navbar-brand" href="../index.html">
+            <a class="navbar-brand" href="./index.html" target="_blank">
                 <i class="bi bi-compass"></i></a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                 data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
@@ -19,7 +19,6 @@ const  BANNER_HTML =
 
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                    <li class="nav-item">
 
                     <li class="about">
                         <a class="nav-link active" aria-current="page" href="../pages/about.html">About</a>

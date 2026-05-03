@@ -68,9 +68,9 @@ A modern, responsive overhaul of the [Muscle Shoals Sailing Club](https://www.mu
 src/
 ├── components/        # Reusable UI components (Navbar, Footer, Buttons)
 ├── pages/             # Main views (Home, About, Racing, Membership)
-├── assets/            # Images, logos, and custom icons
+├── assets/            # Images, logos, pictures,  and custom icons
 ├── styles/            # Custom SASS/CSS overrides for Bootstrap
-└── App.js             # Main application entry and routing
+└── index.html         # Main application entry and routing
 ```
 
 ---

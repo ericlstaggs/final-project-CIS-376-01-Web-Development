@@ -1,9 +1,3 @@
-
-
-This README template is designed to look professional on GitHub while clearly explaining the technical transition from a legacy site to a modern stack.
-
----
-
 # Muscle Shoals Sailing Club – Website Redesign
 
 A modern, responsive overhaul of the [Muscle Shoals Sailing Club](https://www.muscleshoalssailingclub.org/) digital presence. This project migrates the existing legacy architecture to a high-performance **React.js** application styled with **Bootstrap 5**.
@@ -20,10 +14,9 @@ A modern, responsive overhaul of the [Muscle Shoals Sailing Club](https://www.mu
 
 | Technology | Purpose |
 | :--- | :--- |
-| **React.js** | Frontend library for UI components and state management. |
 | **Bootstrap 5** | Layout framework for responsive grids and pre-built UI elements. |
 | **SASS/CSS3** | Custom styling to align with the club’s branding. |
-| **React Router** | Client-side routing for seamless page transitions. |
+| **Google Cloud** | Client-side routing for seamless page transitions. |
 
 ---
 

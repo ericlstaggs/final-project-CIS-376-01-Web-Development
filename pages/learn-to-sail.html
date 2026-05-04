@@ -9,21 +9,84 @@
   <link href="../styles/learn-to-sail.css" rel="stylesheet">
 </head>
 
-<body class="d-flex flex-column min-vh-100 bg-cover">
-
-  <!-- banner -->
+<body class="bg-cover">
   <div id="banner-container"></div>
-<h1 class="vh-100">Learn to Sail</h1>
+
+  <main class="container min-vh-100 py-5">
+    <section class="sea-intro rounded-4 p-4 shadow-lg border border-white border-opacity-25 mb-4">
+      <div class="d-flex flex-column flex-lg-row align-items-start justify-content-between gap-4">
+        <div>
+          <h1 class="display-5 text-white mb-3">2026 Learn to Sail</h1>
+          <p class="lead text-white-75 mb-0">Join Muscle Shoals Sailing Club for beginner-friendly sailing events that
+            blend classroom coaching with hands-on time on the water.</p>
+        </div>
+        <div class="text-white text-start text-lg-end">
+          <p class="mb-1"><strong>Age:</strong> 10 years and older</p>
+          <p class="mb-0"><strong>Note:</strong> Children under 16 must be accompanied by an adult.</p>
+        </div>
+      </div>
+    </section>
+
+<div class="container">
+    <article class="row center g-4 mb-5 justify-content-center">
+      <div class="card sea-card">
+        <div class="card-body">
+          <h2 class="card-title text-blue">First Sail</h2>
+          <p class="card-text">A relaxed one-day experience for new sailors. Learn boat handling, sails, and wind
+            awareness while enjoying a guided cruise with an experienced captain.</p>
+          <ul class="list-unstyled fw-semibold">
+            <li><i class="bi bi-check2-circle text-primary me-2"></i>On-water introduction</li>
+            <li><i class="bi bi-check2-circle text-primary me-2"></i>Basic sailing skills</li>
+            <li><i class="bi bi-check2-circle text-primary me-2"></i>Fun and safe learning</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="card sea-card h-100">
+        <div class="card-body">
+          <h2 class="card-title text-blue">Sailing Seminar</h2>
+          <p class="card-text">A two-day training seminar on June 6-7 with classroom lessons and hands-on
+            coaching. Gain confidence in sail trim, docking, teamwork, and basic seamanship.</p>
+          <ul class="list-unstyled fw-semibold">
+            <li><i class="bi bi-check2-circle text-primary me-2"></i>Two-day workshop</li>
+            <li><i class="bi bi-check2-circle text-primary me-2"></i>Classroom + water practice</li>
+            <li><i class="bi bi-check2-circle text-primary me-2"></i>Perfect for beginners</li>
+          </ul>
+        </div>
+      </div>
+    </article>
+  </div>
 
 
+    <section class="row g-4">
+      <div class="col-lg-8">
+        <div class="info-panel rounded-4 p-4 shadow-sm bg-white bg-opacity-90">
+          <h3 class="text-blue mb-3">What to Expect</h3>
+          <p>Experience the joy of sailing while you learn essential terminology, rigging, safety, and boat handling.
+            Each session is paced for new sailors and designed to build confidence on the water.</p>
+          <p>Our one-day events give you a taste of sailing, while the seminar provides a complete foundation with
+            classroom instruction and guided sea time.</p>
+          <p class="mb-0">Visit the schedule page for a day-by-day seminar overview, and check the Handbook for detailed
+            event information.</p>
+        </div>
+      </div>
 
-  <!-- footer div -->
+
+      <div class="col-lg-4">
+        <div class="info-panel rounded-4 p-4 shadow-sm bg-white bg-opacity-90 text-center">
+          <h3 class="text-blue mb-3">Ready to Sail?</h3>
+          <p class="mb-4">Send us your contact information and we’ll help you get started with the next available
+            session.</p>
+          <a href="../pages/membership.html" class="btn btn-primary btn-lg w-100">Contact Us</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
   <div id="footer-container"></div>
 
-  <!--constant scritps area -->
   <script src="../components/banner.js"></script>
   <script src="../components/footer.js"></script>
-
 </body>
 
 </html>

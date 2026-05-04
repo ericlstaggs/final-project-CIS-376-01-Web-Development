@@ -4,9 +4,38 @@
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: fixed;
-  /* Keeps the image from scrolling with the page */
+  min-height: 100vh;
 }
 
-.big {
-  font-weight: bold;
+.sea-intro {
+  background: rgba(5, 48, 86, 0.72);
+  backdrop-filter: blur(8px);
 }
+
+.sea-card {
+  background: rgba(255, 255, 255, 0.18);
+  border: 1px solid rgba(255, 255, 255, 0.25);
+  color: #f8f9fa;
+}
+
+.info-panel {
+  min-height: 100%;
+}
+
+.text-blue {
+  color: #0b5ed7 !important;
+}
+
+body,
+p,
+.lead,
+.card-text,
+.list-unstyled {
+  color: #f4f7fb;
+}
+
+p {
+  line-height: 1.7;
+  color: black;
+}
+

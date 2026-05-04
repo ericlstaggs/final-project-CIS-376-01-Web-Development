@@ -5,3 +5,18 @@
   background-repeat: no-repeat;
   background-attachment: fixed; /* Keeps the image from scrolling with the page */
 }
+
+body {
+  align-content: center;
+}
+
+h2 {
+  text-align: center;
+}
+
+.sea-card {
+  background: rgba(255, 255, 255, 0.18);
+  border: 100px solid rgba(255, 255, 255, 0.25);
+  color: #f8f9fa;
+
+}

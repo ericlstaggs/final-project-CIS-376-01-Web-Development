@@ -29,33 +29,6 @@ A modern, responsive overhaul of the [Muscle Shoals Sailing Club](https://www.mu
 
 ---
 
-## 💻 Getting Started
-
-### Prerequisites
-* **Node.js** (v16.0 or higher)
-* **npm** or **yarn**
-
-### Installation
-1. **Clone the repository:**
-   ```bash
-   git clone https://github.com/your-username/mssc-redesign.git
-   ```
-2. **Navigate to the project directory:**
-   ```bash
-   cd mssc-redesign
-   ```
-3. **Install dependencies:**
-   ```bash
-   npm install
-   ```
-4. **Start the development server:**
-   ```bash
-   npm start
-   ```
-   The site will be viewable at `http://localhost:3000`.
-
----
-
 ## 📂 Project Structure
 ```text
 src/

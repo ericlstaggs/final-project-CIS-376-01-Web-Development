@@ -1,0 +1,14 @@
+.bg-cover {
+  background-image: url('../asst/images/lake-view.webp');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed; /* Keeps the image from scrolling with the page */
+}
+
+h1 {
+    text-align: center;
+}
+h2, h3{
+    text-indent: 50px;
+}

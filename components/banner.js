@@ -34,7 +34,7 @@ const  BANNER_HTML =
                         <a class="nav-link active" aria-current="page" href="../pages/photos.html">Photos</a>
                     </li>
                     <li class="navTemplate">
-                        <a class="nav-link active" aria-current="page" href="../pages/lear-to-sail.html">Learn to
+                        <a class="nav-link active" aria-current="page" href="../pages/learn-to-sail.html">Learn to
                             Sail</a>
                     </li>
                 </ul>

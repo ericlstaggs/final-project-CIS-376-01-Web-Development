@@ -1,0 +1,12 @@
+.bg-cover {
+  background-image: url('../asst/images/learn-to-sail.webp');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  /* Keeps the image from scrolling with the page */
+}
+
+.big {
+  font-weight: bold;
+}

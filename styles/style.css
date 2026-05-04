@@ -37,19 +37,6 @@ h2, h3{
     width: calc(100%/3);
 }
 
-.active {
-   display: inline; 
-}
-
-.login-container {
-    border: solid 1px blue;
-    text-align: center;
-}
-
-
-#author {
-    text-decoration: underline;
-}
 
 .content-page {
     margin-left: 15px;
